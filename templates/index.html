@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dissolved Oxygen Predictor</title>
+  <link rel="stylesheet" href="/static/shared.css">
+  <link rel="stylesheet" href="/static/home.css">
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-3xl md:text-4xl font-bold text-center text-[#0077b6] mb-8">
+      Dissolved Oxygen Summary
+    </h1>
+    
+
+    <div class="hero-section w-full flex items-stretch gap-8">
+
+      <!-- Image on the left -->
+      <img 
+  src="https://vitalpharma.in/wp-content/uploads/2020/12/fishs.jpg"
+  alt="aqua culture image"
+  class="hero-image h-full object-cover rounded-xl shadow-lg flex-1 max-w-[400px]"
+>
+
+
+      <!-- Summary info on the right -->
+      <div class="description">
+        <p>
+          The Dissolved Oxygen Predictor uses a LightGBM machine learning model, optimized by Differential Evolution,
+          to forecast dissolved oxygen (DO) levels in aquaculture environments.
+        </p>
+        <p>
+          It analyzes real-world sensor data (depth, temperature, pH, conductivity) from over 47,000 samples.
+          With advanced preprocessing and tuning, it achieved a 97.2% prediction accuracy.
+        </p>
+        <p>
+          This tool helps optimize fish health and environmental management by providing reliable DO predictions
+          in dynamic aquatic systems.
+        </p>
+
+        <a href="/predict-form" class="cta-link">Go to Prediction</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
